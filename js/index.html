@@ -5,41 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../js/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Web and Mobile App Development</title>
 </head>
 <body>
     <div class="headcontainer">
-      <div class="head">
-           <div class="righthead">
-             <img src="../images/bluelook_logo_for_web.png" width="150px" height="50px" alt="logo"> <br>
-             <p>Company <select name="Company" id=""></select></p>
-             <p>Technologies <select name="Technologies" id=""></select> </p>
-             <p>Services <select name="Services" id=""></select> </p>
-             <p>Our Products <select name="Our Products" id=""></select> </p>
-             <p>Blog <select name="Blog" id=""></select> </p>
-          </div>
-          <div class="lefthead">
-             <img src="../images/external-linkedin-social-media-justicon-lineal-justicon.png" alt="">
-             <img src="../images/external-youtube-multimedia-prettycons-lineal-prettycons.png" alt="">
-             <img src="../images/icons8-facebook-24.png" alt="">
-             <img src="../images/icons8-instagram-24.png" alt="">
-             <img src="../images/icons8-twitter-30.png" alt="">
-             <button>Contact </button>
-          </div>
+        <header class="header">
+            <nav class="navbar navbar-style navbar-fixed-top navbar-expand-lg">
+                <div class="container-fluid">
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon" ></button>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <a href=""> <img class="logo" src="../images/bluelook_logo_for_web.png"  alt="logo"> </a>
+                    </div> 
+                    <div class="collapse navbar-collapse" id="micon">
+                    <ul class="nav navbar-nav">
+                     <li><a href="">Company</a></li>
+                     <li><a href="">Technologies</a></li>
+                     <li><a href="">Services</a></li>
+                     <li><a href="">Our Products</a></li>
+                     <li><a href="">Blog</a></li>
+                  </ul>
+                  <div class="lefthead">
+                      <ul class="nav navbar-nav navbar-right">
+                        <img src="../images/external-linkedin-social-media-justicon-lineal-justicon.png" width="40px" height="40px" alt="">
+                        <img src="../images/external-youtube-multimedia-prettycons-lineal-prettycons.png" width="40px" height="40px" alt="">
+                        <img src="../images/icons8-facebook-24.png" width="40px" height="40px" alt="">
+                        <img src="../images/icons8-instagram-24.png" width="40px" height="40px"  alt="">
+                        <img src="../images/icons8-twitter-30.png" width="40px" height="40px"  alt="">
+                        <button class="btn btn-danger navbar-btn" >Contact </button>
+                     </ul>
+                </div>
+            </div>
+              </div>
+         </nav> 
+    </header>
        </div>   
        <div class="sour" >
-            <img src="../images/pexels-sourav-mishra-3136673.jpg" width="1340px" height="470px" alt="">
+            <img class="img-responsive" src="../images/pexels-sourav-mishra-3136673.jpg" class="img-reponsive" width="1340px" height="470px"   alt="">
        </div>
        <div class="custom"> 
         <h1>CUSTOMERS WE ARE PROUDS OF</h1> 
         <p>We come up with creative ideas to design, create, and launch products that will serve as the foundation for the industry's digital transformation while keeping the client's constraints and specifications in mind</p>
        </div>
-       <div class="partner">
-          <div><img src="../images/download.jfif" alt=""></div>
-          <div><img src="../images/download.png" alt=""></div>
-          <div><img src="../images/Microsoft-Logo-2012-present.jpg" width="300px" height="200px" alt=""></div>
-          <div><img src="../images/Google-Partner-Agency-in-India.png"  width="300px" height="200px" alt=""></div>
-       </div>
+       <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="../images/download.jfif">
+              <img src="../images/download.jfif"  alt="Lights" style="width: 100%;">
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="../images/download.png">
+              <img src="../images/download.png"  alt="Nature" style="width: 100%;" >
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <a href="../images/Microsoft-Logo-2012-present.jpg">
+              <img src="../images/Microsoft-Logo-2012-present.jpg" alt="Fjords" style="width: 100%;"  >
+            </a>
+            </div>
+         </div>
+    <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="../images/Google-Partner-Agency-in-India.png">
+            <img src="../images/Google-Partner-Agency-in-India.png"  alt="Fjords" style="width: 100%;" >
+        </a>
+            </div>
+        </div>
+      </div>
+</div>
        <div class="back">
            <h1>OUR MOST VALUABLE SERVICES FOR DIGITAL TRANSFORMATION</h1>
            <hr>
@@ -47,7 +90,7 @@
         
             <div class="content" >
                <div class="saas">
-                    <img src="../images/saas.webp" width="60px" height="60px" alt="">
+                    <img  src="../images/saas.webp" width="60px" height="60px" alt="">
                     <h1>SAAS DEVELOPMENT</h1>
                     <p>We are a leading product development firm that creates high-quality digital products that meet our clients' needs.</p>
                     <button>View More</button>
@@ -104,12 +147,14 @@
             <p>By providing our services, we help the world's most prominent brands produce high-quality items. Tell us about your new company needs, and we'll collaborate with you to make it a success.</p>
         </div>
         <div class="products" >
-            <div class="product1"> <img src="../images/Screenshot (5).png" width="750px" height="500px" alt=""></div>
-            <div class="product2">
+            <div class="row">
+            <div class="col-sm-6"> <img src="../images/Screenshot (5).png" class="img-responsive" width="750px" height="500px" alt=""></div>
+            <div class="col-sm-6">
                 <h1>Hospital Bed Booking and Oxygen Level Tracking System</h1>
                 <p>
                 Hospital bed booking management systems became a pivotal practice after the National Health Services statement rule on patients emergency trolley waiting hours. After an accident, inconvenient waiting hours in hospital waiting halls due to improper operational capacity planning and control over managing, allotting, and maintaining beds may turn frustrating when emergency care is required.</p>
             </div>
+        </div>
         </div>  
         <div class="custom3"> 
             <h1>OUR MOST RECENT INVENTIVE CREATIONS</h1> <hr>
@@ -117,31 +162,55 @@
         </div> 
         <div id="top"></div>
 <section class="gallery">
-	<div class="row1">
-		<div>
-					<img src="../images/Car Parking.webp" width="500px" height="300px" alt="">
-        </div>
-        <div>
-					<img src="../images/Delivery app.webp" width="500px" height="300px" alt="">
-        </div>
-        <div>
-					<img src="../images/Fuel .webp"width="500px" height="300px" alt="">
-        </div>
-    </div>    
-    <div class="row2">
-        <div>
-					<img src="../images/Mechanical_application.webp" width="500px" height="300px"alt="">
-         </div>
-         <div>
-					<img src="../images/WemonShoping.webp"width="500px" height="300px" alt="">
-		<div>
-					<img src="../images/Bed Booking.webp"width="500px" height="300px" alt="">
-        </div>
+	<div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/Car Parking.webp">
+                <img src="../images/Car Parking.webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/Delivery app.webp">
+                <img src="../images/Delivery app.webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/Fuel .webp">
+                <img src="../images/Fuel .webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>   
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/Mechanical_application.webp">
+                <img src="../images/Mechanical_application.webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/WemonShoping.webp">
+                <img src="../images/WemonShoping.webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="../images/Bed Booking.webp">
+                <img src="../images/Bed Booking.webp" alt="Nature" style="width:100%">
+              </a>
+            </div>
+          </div>
+       </div>
+</section>
         <div class="custom4"> 
             <h1>SUCCESS OF BLUELOOK</h1> <hr>
             <p>Bluelook is a leading mobile app development business with a long list of satisfied customers around the world</p>
         </div> 
-    </div>
     <div class="but">
              <div class="but1">    
                 <button style="padding: 2rem;" >25+ Projects </button>
@@ -167,35 +236,71 @@
         <p>Check out our most recent posts, news, and case studies. Keep up to date by learning more about the new developments </p>
     </div> 
     <div class="other">
-        <div><img src="../images/blog.webp" width="300px" height="200px" alt=""></div>
-        <div><img src="../images/profilo.webp" width="300px" height="200px" alt=""></div>
-        <div><img src="../images/projects.webp"  width="300px" height="200px"  alt=""></div>
-     </div> 
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="../images/blog.webp">
+              <img src="../images/blog.webp" class="img-responsive" alt="Lights" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="../images/profilo.webp">
+              <img src="../images/profilo.webp" class="img-responsive" alt="Nature" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <a href="../images/projects.webp">
+              <img src="../images/projects.webp" class="img-responsive" alt="Fjords" style="width:100%">
+            </a>
+          </div>
+        </div>
     <div class="custom6"> 
         <h1>OUR SUCCESSFUL AWARDS</h1> <hr>
     </div>
-    <div class="content3" >
-        <div class="GoodFirms">
-             <img src="../images/goodfirms_1.png.webp" width="60px" height="60px" alt="">
-             <h1>GoodFirms</h1>
-             <p>Top Mobile App Development Companies in 2021</p>
-         </div>
-         <div class="Softwareworld">
-             <img src="../images/top rated.webp" width="60px" height="60px" alt="">
-             <h1>Softwareworld</h1>
-             <p>Worlds Top 50+ Mobile App Development Companies in 2021.</p>
-         </div>
-         <div class="Appfutura">
-             <img src="../images/top adroid.webp" width="60px" height="60px" alt="">
-             <h1>Appfutura</h1>
-             <p>Top Android App Development company</p>
-        </div>
-        <div class="Clutch">
-             <img src="../images/cluth.webp" width="60px" height="60px" alt="">
-             <h1>Clutch</h1>
-             <p>Top App developing company</p>
-         </div>
+    <div class="content3"></div>
+    <div class="row" >
+       <div class="col-md-2">
+          <div class="thumbnail">
+              <a href="../images/goodfirms_1.png.webp">
+                <img src="../images/goodfirms_1.png.webp" width="60px" height="60px" alt="">
+                <h1>GoodFirms</h1>
+                <p>Top Mobile App Development Companies in 2021</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="thumbnail">
+              <a href="../images/top rated.webp">
+                <img src="../images/top rated.webp" width="60px" height="60px" alt="">
+                    <h1>Softwareworld</h1>
+                <p>Worlds Top 50+ Mobile App Development Companies in 2021.</p>>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="thumbnail">
+              <a href="../images/top adroid.webp">
+                <img src="../images/top adroid.webp" width="600px" height="600px" alt="">
+                <h1>Appfutura</h1>
+                <p>Top Android App Development company</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="thumbnail">
+              <a href="../images/cluth.webp">
+                <img src="../images/cluth.webp" width="60px" height="60px" alt="">
+                <h1>Clutch</h1>
+                <p>Top App developing company</p>
+              </a>
+            </div>
+          </div>
      </div>
+     
      <div class="custom7"> 
         <h1>Get in Touch</h1> <hr>
     </div>
@@ -226,71 +331,182 @@
       <div class="contact">
           <img src="../images/contact.webp" alt="">
       </div>
-    <div class="bottombox">
-       <div class="bottomtop">
-          <div class="company">
-               <h1>COMPANY</h1>
-                <div>About</div> 
-                <div>Testimonial</div> 
-                <div>Process</div> 
-                <div> Life @ Bluelook</div>
-                <div> Careers</div>
-                <div> Engagement Model</div>
-         </div>
-          <div class="services">
-               <h1>SERVICES</h1>
-                 <div> Mobile App Development </div>
+      <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
 
-                 <div>   Web Development</div>
-            
-                 <div>  User Experience Design</div>
-            
-                 <div>  IOT Development</div>
-            
-                 <div>  Chatbot Development</div>
-            
-                 <div>  Staff Augmentation</div>
-            
-                 <div> Digital Transformation</div> 
-         </div>
-         <div class="resource">
-               <h1>RESOURCE</h1>
-               <div> Blog </div>
-               <div>  Our Products</div>
-               <div>Technologies</div> 
-               <div>
-              <h1>SUPPORT</h1>
-              </div> 
-              <div> 24/7 Customer Service</div>
-         </div>
-         <div class="contact2">
-                <h1>CONTACT</h1>
-                <img src="../images/bluelook_logo_for_web.png" width="125px" height="50px" alt="">
-                <p>Location:<a href="Bangalore, India">Bangalore, India</a> </p> 
-                <p>Business: <a href=" hello@bluelooktech.com">hello@bluelooktech.com</a> </p> 
-                <p>Job Mail:<a href="hr@bluelooktech.com">hr@bluelooktech.com</a>  </p> 
-                <p>Skype:<a href="sathya@bluelook">sathya@bluelook</a> </p> 
-                <p>India - +91 9952491705</p> 
-                <P>India - +91 9597444726</P>
-         </div>      
+  
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">COMPANY</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">About</a>
+        </p>
+        <p>
+          <a href="#!">Testimonial</a>
+        </p>
+        <p>
+          <a href="#!">Process</a>
+        </p>
+        <p>
+          <a href="#!">Life @ Bluelook</a>
+        </p>
+        <p>
+          <a href="#!">Careers</a>
+        </p>
+        <p>
+          <a href="#!">Engagement Models</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">SERVICES</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Mobile App Development</a>
+        </p>
+        <p>
+          <a href="#!">Web Development</a>
+        </p>
+        <p>
+          <a href="#!"> User Experience Design</a>
+        </p>
+        <p>
+          <a href="#!">IOT Development</a>
+        </p>
+        <p>
+          <a href="#!">Chatbot Development</a>
+        </p>
+        <p>
+          <a href="#!"> Staff Augmentation</a>
+        </p>
+        <p>
+          <a href="#!"> Digital Transformation</a>
+        </p>
      </div>
-        <hr>
-      <div class="bottombottom"> 
-           <div class="Copyright">
-               <p>
-                © 2021 Copyright: Bluelook Technologies private limited
-               </p>
-            </div>
-            <div class="downlast">
-             <img src="../images/external-linkedin-social-media-justicon-lineal-justicon.png" width="50px" height="30px" alt="">
-             <img src="../images/external-youtube-multimedia-prettycons-lineal-prettycons.png" width="50px" height="30px" alt="">
-             <img src="../images/icons8-facebook-24.png" alt="">
-             <img src="../images/icons8-instagram-24.png" alt="">
-             <img src="../images/icons8-twitter-30.png" alt="">
-            </div>
-      </div> 
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">RESOURCE</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Blog </a>
+        </p>
+        <p>
+          <a href="#!">Our Products</a>
+        </p>
+        <p>
+          <a href="#!">Technologies</a>
+        </p>
+          
+        <h6 class="text-uppercase font-weight-bold">SUPPORT</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        
+        <p>
+          <a href="#!">24/7 Customer Service</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">CONTACT</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>Location:Bangalore, India</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>Business:hello@bluelooktech.com</p>
+      <p>
+            <a href="#!">Job Mail:hr@bluelooktech.com</a>
+      </p>
+      <p>
+        <a href="#!">Skype:sathya@bluelook</a>
+  </p>
+  <p>
+    <i class="fas fa-phone mr-3"></i>India - +91 9952491705</p>
+    <p>
+      <i class="fas fa-phone mr-3"></i>India - +91 9597444726</p>
+      </div>
+      <!-- Grid column -->
 
     </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <a href="https://mdbootstrap.com/"> </a>
+    <div style="background-color: #6351ce;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <div class="footer-copyright text-center py-3">© 2022 Copyright:<a href="https://mdbootstrap.com/"> Bluelook Technologies private limited</a></div>
+            
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <img src="../images/icons8-instagram-24.png" style="width="40px height="40px" alt="">
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <img src="../images/icons8-twitter-30.png" style="width="40px height="40px" alt="">
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <img src="../images/icons8-facebook-24.png"style="width="40px height="40px" alt="">
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <img src="../images/external-linkedin-social-media-justicon-lineal-justicon.png"style="width="40px height="40px" alt="">
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <img src="../images/external-youtube-multimedia-prettycons-lineal-prettycons.png"style="width="40px height="40px" alt="">
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
 </div>  
 </body>
 </html>
